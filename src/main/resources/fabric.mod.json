@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "ignotusmod",
+	"version": "${version}",
+	"name": "Ignotus mod",
+	"description": "",
+	"authors": [
+		"Lukas Lorem"
+	],
+	"contact": {
+		"homepage": "https://github.com/lukas-256/ignotus-fabric-mod",
+		"sources": "https://github.com/lukas-256/ignotus-fabric-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/ignotusmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.ignotusmod.ExampleMod"
+		],
+		"client": [
+			"com.ignotusmod.ExampleModClient"
+		]
+	},
+	"mixins": [
+		"ignotusmod.mixins.json",
+		{
+			"config": "ignotusmod.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.14.21",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
