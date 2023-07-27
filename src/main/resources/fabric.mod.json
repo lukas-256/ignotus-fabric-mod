@@ -19,7 +19,7 @@
 			"com.ignotusmod.ExampleMod"
 		],
 		"client": [
-			"com.ignotusmod.ExampleModClient"
+			"com.ignotusmod.AutoJumpModClient"
 		]
 	},
 	"mixins": [

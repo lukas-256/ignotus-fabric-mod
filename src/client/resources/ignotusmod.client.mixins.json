@@ -3,7 +3,7 @@
 	"package": "com.ignotusmod.mixin.client",
 	"compatibilityLevel": "JAVA_17",
 	"client": [
-		"ExampleClientMixin"
+		"AutoJumpClientMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
